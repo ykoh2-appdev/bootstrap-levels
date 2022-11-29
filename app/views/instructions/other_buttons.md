@@ -1,4 +1,4 @@
-Great! Now we have a nice style rule that we can use to make things look like buttons. We'll use this rule on `<a>` and `<button>` elements, usually, not `<span>`s; since those are the two elements that users click on.
+Great! Now we have a nice style rule that we can use to make things look like buttons. We'll usually use this rule on `<a>` and `<button>` elements, since those are the two elements that users traditionally click on.
 
 Move your style rule into `public/css/my_styles.css`, and then add:
 
@@ -30,7 +30,7 @@ It might be nice to also have button variants that are less intrusive:
 
 Try adding style rules to `my_styles.css` for button variants that look sort of like this. 
 
-Try to make it happen in [this page](/levels/other_buttons). You'll find the code to edit in `app/views/levels/other_buttons.html.erb`.
+Try to make it happen in <a href="/levels/other_buttons" target="_blank">this page</a>. You'll find the code to edit in `app/views/levels/other_buttons.html.erb`.
 
 ---
 
