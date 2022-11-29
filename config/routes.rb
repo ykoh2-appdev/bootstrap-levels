@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'instructions/add_bootstrap'
   get 'instructions/utility_classes'
   get 'instructions/favorite_components'
+  get 'instructions/layout'
 
   get 'targets/utility_classes'
   get 'targets/card'

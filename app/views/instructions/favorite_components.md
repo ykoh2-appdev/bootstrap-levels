@@ -62,4 +62,6 @@ Pretty amazing! There are a ton of other components to explore, at your leisure.
 - [Cheatsheet](https://getbootstrap.com/docs/5.2/examples/cheatsheet/): many of Bootstrap's components all one one page for quick perusal.
 - [Examples](https://getbootstrap.com/docs/5.2/examples/): Examples of how to use components.
 
-When you're ready, let's move on and talk about layout.
+---
+
+When you're ready, let's [move on and talk about layout](/instructions/layout).
