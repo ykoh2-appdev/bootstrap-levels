@@ -44,4 +44,4 @@ After a lot of practice, I have two or three of the classes memorized; but mostl
 
 ---
 
-Next, let's [check out some of my favorite Bootstrap components](/instructions/favorite_components).
+Next, let's [look at some utility classes that Bootstrap includes](/instructions/utility_classes).

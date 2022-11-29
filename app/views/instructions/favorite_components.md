@@ -24,17 +24,30 @@ Then, try to read the docs and use the examples to achieve the following:
 - Write code in `app/views/levels/card.html.erb`.
 - Preview your output <a href="/levels/card" target="_blank">here</a>.
 
-#### Toast
-
-- <a href="/targets/toast" target="_blank">Target</a>.
-- Write code in `app/views/levels/toast.html.erb`.
-- Preview your output <a href="/levels/toast" target="_blank">here</a>.
-
 #### Modal
 
 - <a href="/targets/modal" target="_blank">Target</a>.
 - Write code in `app/views/levels/modal.html.erb`.
 - Preview your output <a href="/levels/modal" target="_blank">here</a>.
+
+#### Toast
+
+- <a href="/targets/toast" target="_blank">Target</a>.
+- Write code in `app/views/levels/toast.html.erb`.
+- Unlike modals, which just work, toasts need to be explicitly initialized; for performance reasons. Include the following code at the bottom of your document:
+
+    ```html
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function(toastEl) {
+          return new bootstrap.Toast(toastEl)
+        })
+        toastList.forEach(toast => toast.show())
+      }, false);
+    </script>
+    ```
+- Preview your output <a href="/levels/toast" target="_blank">here</a>.
 
 #### Navbar
 
