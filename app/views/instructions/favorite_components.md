@@ -4,8 +4,8 @@ Here are some Bootstrap components that I use very frequently:
 
 - <a href="https://getbootstrap.com/docs/5.2/components/list-group/" target="_blank">List group</a>
 - <a href="https://getbootstrap.com/docs/5.2/components/card/" target="_blank">Card</a>
-- <a href="https://getbootstrap.com/docs/5.2/components/toasts/" target="_blank">Toast</a>
 - <a href="https://getbootstrap.com/docs/5.2/components/modal/" target="_blank">Modal</a>
+- <a href="https://getbootstrap.com/docs/5.2/components/toasts/" target="_blank">Toast</a>
 - <a href="https://getbootstrap.com/docs/5.2/components/navbar/" target="_blank">Navbar</a>
 
 As you can see, the latter three include dynamic behavior and/or animations. This is awesome! One of the biggest benefits of Bootstrap is that it includes battle-tested JavaScript that produces these behaviors.
