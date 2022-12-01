@@ -126,7 +126,7 @@ Try to imagine how you would achieve the above using a `<table>`. Here's the act
 </table>
 ```
 
-Notice the key trick: using a **12 column grid**. Since 12 divides so nicely (by 6, 4, 3, 2, and 1), it's easy to subdivide our rows into appropriately sized chunks using `colspan`.
+Notice the key trick: using a **12 column table**. Since 12 divides so nicely (by 6, 4, 3, 2, and 1), it's easy to subdivide our rows into appropriately sized chunks using `colspan`.
 
 This worked well for the early days of the web, but now that we have a plethora of screen sizes, hijacking the `<table>` element for layout doesn't work so well. For one thing, the cells aren't sized exactly right; their content determines how wide they are, and the content of a column can squish the size of a different column. For another thing, tables usually get too cramped on phone screens, or overflow.
 
@@ -157,8 +157,8 @@ In the modern web, we use CSS for layout. **But the conceptual approach is the s
 
   <div class="row">
     <div class="col-md-8" >
-        <div class="bg-warning text-center">2/3</div>
-      </div>
+      <div class="bg-warning text-center">2/3</div>
+    </div>
     <div class="col-md-4">
       <div  class="bg-primary text-center">1/3</div>
     </div>
@@ -166,57 +166,61 @@ In the modern web, we use CSS for layout. **But the conceptual approach is the s
 
   <div class="row">
     <div class="col-md-2">
-        <div class="bg-danger text-center">1/6</div>
-      </div>
+      <div class="bg-danger text-center">1/6</div>
+    </div>
     <div class="col-md-2">
-        <div class="bg-danger text-center">1/6</div>
-      </div>
+      <div class="bg-danger text-center">1/6</div>
+    </div>
     <div class="col-md-2">
-        <div class="bg-danger text-center">1/6</div>
-      </div>
+      <div class="bg-danger text-center">1/6</div>
+    </div>
     <div class="col-md-2">
-        <div class="bg-danger text-center">1/6</div>
-      </div>
+      <div class="bg-danger text-center">1/6</div>
+    </div>
     <div class="col-md-2">
-        <div class="bg-danger text-center">1/6</div>
-      </div>
+      <div class="bg-danger text-center">1/6</div>
+    </div>
     <div class="col-md-2">
-        <div class="bg-danger text-center">1/6</div>
-      </div>
+      <div class="bg-danger text-center">1/6</div>
+    </div>
   </div>
 
   <div class="row">
     <div class="col-md-12">
-        <div class="bg-secondary text-center">1/1</div>
-      </div>
+      <div class="bg-secondary text-center">1/1</div>
+    </div>
   </div>
 </div>
 ```
 
 What are the differences between the code for the two approaches?
 
-Bootstrap includes the definitions of the `container`, `row`, and `colspan-md-*` classes; so the above code produces the following:
+- The `<table>` became a `<div class="container">`.
+- The `<tr>`s became `<div class="row">`s.
+- The `<td colspan="*">` became `<div class="col-md-*">`.
+
+Bootstrap includes the `container`, `row`, and `col-md-*` classes; so the above code produces the following:
 
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-    <div  class="bg-primary text-center">1/3</div>
-  </div>
+      <div class="bg-primary text-center">1/3</div>
+    </div>
     <div class="col-md-4">
-    <div  class="bg-primary text-center">1/3</div>
-  </div>
+      <div class="bg-primary text-center">1/3</div>
+    </div>
     <div class="col-md-4">
-    <div  class="bg-primary text-center">1/3</div>
-  </div>
+      <div class="bg-primary text-center">1/3</div>
+    </div>
   </div>
 
   <div class="row">
     <div class="col-md-6">
-    <div class="bg-info text-center">1/2</div>
-  </div>
+      <div class="bg-info text-center">1/2</div>
+    </div>
     <div class="col-md-6">
-    <div class="bg-info text-center">1/2</div>
-  </div>
+      <div class="bg-info text-center">1/2</div>
+    </div>
   </div>
 
   <div class="row">
