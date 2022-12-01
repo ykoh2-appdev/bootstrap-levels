@@ -273,3 +273,7 @@ Get a feel for using the Grid by attempting the following exercise:
 - <a href="/targets/layout" target="_blank">Target</a>.
 - Write code in `app/views/levels/layout.html.erb`.
 - Preview your output <a href="/levels/layout" target="_blank">here</a>.
+
+---
+
+Next, let's [put Bootstrap together with ERB](/instructions/dynamic_list_group).
