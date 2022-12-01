@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'levels/toast'
   get 'levels/modal'
   get 'levels/navbar'
+  get 'levels/layout'
 
   get 'instructions/other_buttons'
   get 'instructions/add_bootstrap'
@@ -20,6 +21,7 @@ Rails.application.routes.draw do
   get 'targets/toast'
   get 'targets/modal'
   get 'targets/navbar'
+  get 'targets/layout'
   
   # Shortcut for get("/", { :controller => "solutions", :action => "instructions" })
   root 'instructions#primary_button'
