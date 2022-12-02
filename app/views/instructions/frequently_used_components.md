@@ -64,4 +64,4 @@ Pretty amazing! There are a ton of other components to explore, at your leisure.
 
 ---
 
-When you're ready, let's [move on and talk about layout](/instructions/layout).
+When you're ready, let's [move on and talk about the Bootstrap Grid](/instructions/grid).

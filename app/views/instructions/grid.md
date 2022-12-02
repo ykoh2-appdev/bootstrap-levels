@@ -270,9 +270,9 @@ I always use the Grid so that my apps look decent no matter whether the user is 
 
 Get a feel for using the Grid by attempting the following exercise:
 
-- <a href="/targets/layout" target="_blank">Target</a>.
-- Write code in `app/views/levels/layout.html.erb`.
-- Preview your output <a href="/levels/layout" target="_blank">here</a>.
+- <a href="/targets/grid" target="_blank">Target</a>.
+- Write code in `app/views/levels/grid.html.erb`.
+- Preview your output <a href="/levels/grid" target="_blank">here</a>.
 
 ---
 

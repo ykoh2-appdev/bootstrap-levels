@@ -4,13 +4,14 @@ Classes like `btn-primary` wrap up several CSS properties (border radius, color,
 
 For example, check out the following utitilies:
 
-- <a href="https://getbootstrap.com/docs/5.2/utilities/sizing/" target="_blank">Sizing</a>
 - <a href="https://getbootstrap.com/docs/5.2/utilities/shadows/" target="_blank">Shadows</a>
-- <a href="https://getbootstrap.com/docs/5.2/utilities/spacing/" target="_blank">Spacing</a>
-- <a href="https://getbootstrap.com/docs/5.2/utilities/text/" target="_blank">Text</a>
-- <a href="https://getbootstrap.com/docs/5.2/utilities/position/" target="_blank">Position</a>
-- <a href="https://getbootstrap.com/docs/5.2/utilities/opacity/" target="_blank">Opacity</a>
 - <a href="https://getbootstrap.com/docs/5.2/utilities/borders/" target="_blank">Border</a>
+- <a href="https://getbootstrap.com/docs/5.2/utilities/opacity/" target="_blank">Opacity</a>
+- <a href="https://getbootstrap.com/docs/5.2/utilities/sizing/" target="_blank">Sizing</a>
+- <a href="https://getbootstrap.com/docs/5.2/utilities/spacing/" target="_blank">Spacing</a>
+- <a href="https://getbootstrap.com/docs/4.0/utilities/flex/>" target="_blank">Flex</a>
+- <a href="https://getbootstrap.com/docs/5.2/utilities/position/" target="_blank">Position</a>
+- <a href="https://getbootstrap.com/docs/5.2/utilities/text/" target="_blank">Text</a>
 
 ---
 
@@ -24,4 +25,4 @@ After skimming the above docs, try achieving the following:
 
 I generally try to write as little CSS as possible; instead, if there isn't a pre-made component that does what I want, I do my best to assemble it out of the existing utility classes. That way, my spacing/colors/shadows/font size/etc stay consistent across my app.
 
-Peruse the other Utilities in the left sidebar of the Bootstrap docs. When you're ready, let's move on and [check out some of my favorite Bootstrap components](/instructions/favorite_components).
+Peruse the other Utilities in the left sidebar of the Bootstrap docs. When you're ready, let's move on and [check out some of my most frequently-used Bootstrap components](/instructions/frequently_used_components).
