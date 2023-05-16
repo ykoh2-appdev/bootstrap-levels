@@ -59,8 +59,8 @@ Then, try to read the docs and use the examples to achieve the following:
 
 Pretty amazing! There are a ton of other components to explore, at your leisure. To get you started:
 
-- [Cheatsheet](https://getbootstrap.com/docs/5.2/examples/cheatsheet/): many of Bootstrap's components all one one page for quick perusal.
-- [Examples](https://getbootstrap.com/docs/5.2/examples/): Examples of how to use components.
+- <a href="https://getbootstrap.com/docs/5.2/examples/cheatsheet/" target="_blank">Cheatsheet</a>: many of Bootstrap's components all one one page for quick perusal.
+- <a href="https://getbootstrap.com/docs/5.2/examples/" target="_blank">Examples</a>: Examples of how to use components.
 
 ---
 
