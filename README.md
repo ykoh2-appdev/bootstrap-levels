@@ -1,7 +1,4 @@
-# Base Rails
+# Bootstrap Levels
 
-## Standard Workflow
-
- 1. Start the web server by running `bin/server`.
- 1. Navigate to your live application.
- 1. As you work, remember to navigate to `/git` and **commit often as you work.**
+1. `bin/server`
+2. There are some instructions on the homepage of the app.
